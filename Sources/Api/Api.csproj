@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ReleaseVersion>0.2.0</ReleaseVersion>
   </PropertyGroup>
 
 
@@ -10,10 +11,10 @@
     <Folder Include="Configuration\" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Rovecode.Assistant.Commands" Version="0.2.0" />
-    <PackageReference Include="Rovecode.Assistant.Facade" Version="0.2.0" />
-    <PackageReference Include="Rovecode.Assistant.Configuration" Version="0.2.0" />
-    <PackageReference Include="Rovecode.Assistant.Application" Version="0.2.0" />
-    <PackageReference Include="Rovecode.Assistant.Messages" Version="0.2.0" />
+    <PackageReference Include="Rovecode.Assistant.Messages" Version="0.2.4" />
+    <PackageReference Include="Rovecode.Assistant.Facade" Version="0.2.4" />
+    <PackageReference Include="Rovecode.Assistant.Application" Version="0.2.4" />
+    <PackageReference Include="Rovecode.Assistant.Configuration" Version="0.2.4" />
+    <PackageReference Include="Rovecode.Assistant.Commands" Version="0.2.3" />
   </ItemGroup>
 </Project>

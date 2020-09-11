@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Threading.Tasks;
 using Assistant.Facade.Configuration;
 using Assistant.Facade.Messages;
@@ -9,6 +10,13 @@ using Newtonsoft.Json;
 
 namespace Api.Controllers
 {
+    public class Model
+    {
+        public string Text { get; set; }
+
+        public bool IsNullWithoutAssistantKey { get; set; }
+    }
+
     [ApiController]
     [Route("[controller]")]
     public class AssistantController : ControllerBase
@@ -23,19 +31,21 @@ namespace Api.Controllers
             _settings = settings;
         }
 
-        [HttpGet]
-        public async Task<string> Get([FromQuery] string text)
+        [HttpPost]
+        public async Task<string> Post([FromBody] Model model)
         {
-            IAssistantContext context = new AssistantContextBuilder(text)
+            IAssistantContext context = new AssistantContextBuilder(_settings.Options)
+                .SetText(model.Text)
                 .GetResult();
 
-            IAssistantMessage result = await _settings.Manager
-                .TryExcuteCommandsAsync(
-                    await _settings.Manager.FindCommandsAsync(context));
+            _logger.LogInformation(JsonConvert.SerializeObject(context));
 
-            return result == null
-                ? JsonConvert.SerializeObject("null")
-                : JsonConvert.SerializeObject(result);
+            if (model.IsNullWithoutAssistantKey && context.Message.ExcuteAssistantKey.Count() == 0) return null;
+
+            IAssistantMessage result = await _settings.Manager
+                .TryFindAndExecuteCommandsAsync(context);
+
+            return JsonConvert.SerializeObject(result);
         }
     }
 }

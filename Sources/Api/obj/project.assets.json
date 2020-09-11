@@ -132,11 +132,11 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Rovecode.Assistant.Application/0.2.0": {
+      "Rovecode.Assistant.Application/0.2.4": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
-          "Rovecode.Assistant.Facade": "0.2.0"
+          "Rovecode.Assistant.Facade": "0.2.4"
         },
         "compile": {
           "lib/netcoreapp3.1/Application.dll": {}
@@ -145,12 +145,11 @@
           "lib/netcoreapp3.1/Application.dll": {}
         }
       },
-      "Rovecode.Assistant.Commands/0.2.0": {
+      "Rovecode.Assistant.Commands/0.2.3": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
-          "Rovecode.Assistant.Application": "0.2.0",
-          "Rovecode.Assistant.Facade": "0.2.0"
+          "Rovecode.Assistant.Application": "0.2.3"
         },
         "compile": {
           "lib/netcoreapp3.1/Commands.dll": {}
@@ -159,12 +158,11 @@
           "lib/netcoreapp3.1/Commands.dll": {}
         }
       },
-      "Rovecode.Assistant.Configuration/0.2.0": {
+      "Rovecode.Assistant.Configuration/0.2.4": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
-          "Rovecode.Assistant.Application": "0.2.0",
-          "Rovecode.Assistant.Commands": "0.2.0"
+          "Rovecode.Assistant.Application": "0.2.4"
         },
         "compile": {
           "lib/netcoreapp3.1/Configuration.dll": {}
@@ -173,7 +171,7 @@
           "lib/netcoreapp3.1/Configuration.dll": {}
         }
       },
-      "Rovecode.Assistant.Facade/0.2.0": {
+      "Rovecode.Assistant.Facade/0.2.4": {
         "type": "package",
         "compile": {
           "lib/netcoreapp3.1/Facade.dll": {}
@@ -182,13 +180,12 @@
           "lib/netcoreapp3.1/Facade.dll": {}
         }
       },
-      "Rovecode.Assistant.Messages/0.2.0": {
+      "Rovecode.Assistant.Messages/0.2.4": {
         "type": "package",
         "dependencies": {
           "Microsoft.Azure.CognitiveServices.Search.CustomSearch": "2.0.0",
           "Newtonsoft.Json": "12.0.3",
-          "Rovecode.Assistant.Application": "0.2.0",
-          "Rovecode.Assistant.Facade": "0.2.0"
+          "Rovecode.Assistant.Application": "0.2.4"
         },
         "compile": {
           "lib/netcoreapp3.1/Messages.dll": {}
@@ -1473,68 +1470,68 @@
         "packageIcon.png"
       ]
     },
-    "Rovecode.Assistant.Application/0.2.0": {
-      "sha512": "Dq4MUOTjs5UuSFydDhJY398O9TdjfmfXx5ZERNjL5x6/u3cPbMGwb5CiKSBD+fbMoA8wrXn/m26X7E9OVZNnhg==",
+    "Rovecode.Assistant.Application/0.2.4": {
+      "sha512": "fxiBAQ78fUXhgQaN9j6qn15Oy6H4RqZZdvHb0x+uSn+naeOucILMDEIH5zlGqJNoJOZ1PetiCf0BpgamtkgHVg==",
       "type": "package",
-      "path": "rovecode.assistant.application/0.2.0",
+      "path": "rovecode.assistant.application/0.2.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
         "lib/netcoreapp3.1/Application.dll",
-        "rovecode.assistant.application.0.2.0.nupkg.sha512",
+        "rovecode.assistant.application.0.2.4.nupkg.sha512",
         "rovecode.assistant.application.nuspec"
       ]
     },
-    "Rovecode.Assistant.Commands/0.2.0": {
-      "sha512": "XDDtkJLmrDq1fbqeTbvVALD77kSzs6lU2ZFf3oiwWEAIHsB+hQRV2kSLwT3Am23ya3WZKnLR8jR65Ez3ZGAUYw==",
+    "Rovecode.Assistant.Commands/0.2.3": {
+      "sha512": "+KmNbrc4wRrEqUHuJKNLaYc0l8Wsbo6nhY9vN0SVEXaxxApRdUmkGN0r6jtBcaQmzi952PThleF6lEuZPvBagw==",
       "type": "package",
-      "path": "rovecode.assistant.commands/0.2.0",
+      "path": "rovecode.assistant.commands/0.2.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
         "lib/netcoreapp3.1/Commands.dll",
-        "rovecode.assistant.commands.0.2.0.nupkg.sha512",
+        "rovecode.assistant.commands.0.2.3.nupkg.sha512",
         "rovecode.assistant.commands.nuspec"
       ]
     },
-    "Rovecode.Assistant.Configuration/0.2.0": {
-      "sha512": "6sSptXuJ1LQHXY+BtM6AFApTRkEhP14hbU1Mlx43jK0zwNGG+zCZCHA/L/+ZaKg0+IpHKQPPsq1UuAXaYATpZQ==",
+    "Rovecode.Assistant.Configuration/0.2.4": {
+      "sha512": "U7MYvb0JT4ZRmH1NpMSrVaFD+zsRkheZsOSqiR4K4LBnTPeTNCsaiwOX4v3fkyywkdDWNTo45oQEYMNquGn0Lw==",
       "type": "package",
-      "path": "rovecode.assistant.configuration/0.2.0",
+      "path": "rovecode.assistant.configuration/0.2.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
         "lib/netcoreapp3.1/Configuration.dll",
-        "rovecode.assistant.configuration.0.2.0.nupkg.sha512",
+        "rovecode.assistant.configuration.0.2.4.nupkg.sha512",
         "rovecode.assistant.configuration.nuspec"
       ]
     },
-    "Rovecode.Assistant.Facade/0.2.0": {
-      "sha512": "kLdl5vkt2RtzzriV/oA7cBZUlT6KviOWtQUe706GdAA2KvkwuH95x66Qn3qbKzBb2qNXLEokYTStK2FhPAaXGQ==",
+    "Rovecode.Assistant.Facade/0.2.4": {
+      "sha512": "6e8UFTJ99naHf5dA6YCy7MSNdE/NxFgYXajw9YACnlnfdWazyxF3xx9z5JTpo1yOPVP+zitmT5AHjzWf3Xp0Uw==",
       "type": "package",
-      "path": "rovecode.assistant.facade/0.2.0",
+      "path": "rovecode.assistant.facade/0.2.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
         "lib/netcoreapp3.1/Facade.dll",
-        "rovecode.assistant.facade.0.2.0.nupkg.sha512",
+        "rovecode.assistant.facade.0.2.4.nupkg.sha512",
         "rovecode.assistant.facade.nuspec"
       ]
     },
-    "Rovecode.Assistant.Messages/0.2.0": {
-      "sha512": "dopSimRPYqu9T17O0oGb0y8nxAof8Uoe++8YIXc5MftZgvdnbFWWwOCgK8ZVD6QQ/0sG9RHFzPlDDQVQ/6KMkw==",
+    "Rovecode.Assistant.Messages/0.2.4": {
+      "sha512": "e+ZYrRTSjpJPhSGr6vSrTSkLhXfbc2kwpVCSsKLeAxK4roi0SGlF8mhdRB1C1TtNjZfgCzuPVYfM42ZW28urIQ==",
       "type": "package",
-      "path": "rovecode.assistant.messages/0.2.0",
+      "path": "rovecode.assistant.messages/0.2.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
         "lib/netcoreapp3.1/Messages.dll",
-        "rovecode.assistant.messages.0.2.0.nupkg.sha512",
+        "rovecode.assistant.messages.0.2.4.nupkg.sha512",
         "rovecode.assistant.messages.nuspec"
       ]
     },
@@ -4729,11 +4726,11 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Rovecode.Assistant.Application >= 0.2.0",
-      "Rovecode.Assistant.Commands >= 0.2.0",
-      "Rovecode.Assistant.Configuration >= 0.2.0",
-      "Rovecode.Assistant.Facade >= 0.2.0",
-      "Rovecode.Assistant.Messages >= 0.2.0"
+      "Rovecode.Assistant.Application >= 0.2.4",
+      "Rovecode.Assistant.Commands >= 0.2.3",
+      "Rovecode.Assistant.Configuration >= 0.2.4",
+      "Rovecode.Assistant.Facade >= 0.2.4",
+      "Rovecode.Assistant.Messages >= 0.2.4"
     ]
   },
   "packageFolders": {
@@ -4773,23 +4770,23 @@
         "dependencies": {
           "Rovecode.Assistant.Application": {
             "target": "Package",
-            "version": "[0.2.0, )"
+            "version": "[0.2.4, )"
           },
           "Rovecode.Assistant.Commands": {
             "target": "Package",
-            "version": "[0.2.0, )"
+            "version": "[0.2.3, )"
           },
           "Rovecode.Assistant.Configuration": {
             "target": "Package",
-            "version": "[0.2.0, )"
+            "version": "[0.2.4, )"
           },
           "Rovecode.Assistant.Facade": {
             "target": "Package",
-            "version": "[0.2.0, )"
+            "version": "[0.2.4, )"
           },
           "Rovecode.Assistant.Messages": {
             "target": "Package",
-            "version": "[0.2.0, )"
+            "version": "[0.2.4, )"
           }
         },
         "imports": [
@@ -4810,7 +4807,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
       }
     }
   }

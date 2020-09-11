@@ -21,9 +21,10 @@ namespace Api.Configuration
         private void InitOptions()
         {
             Options.Language = "ru";
-            Options.ExecuteKey = new string[]
+            Options.ExecuteAssistantKeys = new []
             {
-                "хватов",
+                new [] { "хватов", },
+                new [] { "феликс", },
             };
         }
 
@@ -31,8 +32,10 @@ namespace Api.Configuration
         {
             Manager.DefaultCommand = new DefaultCommand();
 
-            //Manager.Commands.Add(new HelloCommand());
-            //Manager.Commands.Add(new TimeCommand());
+            Manager.Commands.Add(new HelloCommand());
+            Manager.Commands.Add(new SearchCommand());
+            Manager.Commands.Add(new CatsCommand());
+            Manager.Commands.Add(new AlabaiCommand());
         }
     }
 }
