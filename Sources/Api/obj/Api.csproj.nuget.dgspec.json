@@ -38,23 +38,23 @@
           "dependencies": {
             "Rovecode.Assistant.Application": {
               "target": "Package",
-              "version": "[0.2.4, )"
+              "version": "[0.2.5, )"
             },
             "Rovecode.Assistant.Commands": {
               "target": "Package",
-              "version": "[0.2.3, )"
+              "version": "[0.2.5, )"
             },
             "Rovecode.Assistant.Configuration": {
               "target": "Package",
-              "version": "[0.2.4, )"
+              "version": "[0.2.5, )"
             },
             "Rovecode.Assistant.Facade": {
               "target": "Package",
-              "version": "[0.2.4, )"
+              "version": "[0.2.5, )"
             },
             "Rovecode.Assistant.Messages": {
               "target": "Package",
-              "version": "[0.2.4, )"
+              "version": "[0.2.5, )"
             }
           },
           "imports": [

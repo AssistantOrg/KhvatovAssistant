@@ -24,11 +24,11 @@
     ".NETCoreApp,Version=v3.1": {
       "Api/1.0.0": {
         "dependencies": {
-          "Rovecode.Assistant.Application": "0.2.4",
-          "Rovecode.Assistant.Commands": "0.2.3",
-          "Rovecode.Assistant.Configuration": "0.2.4",
-          "Rovecode.Assistant.Facade": "0.2.4",
-          "Rovecode.Assistant.Messages": "0.2.4",
+          "Rovecode.Assistant.Application": "0.2.5",
+          "Rovecode.Assistant.Commands": "0.2.5",
+          "Rovecode.Assistant.Configuration": "0.2.5",
+          "Rovecode.Assistant.Facade": "0.2.5",
+          "Rovecode.Assistant.Messages": "0.2.5",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -436,72 +436,72 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Rovecode.Assistant.Application/0.2.4": {
+      "Rovecode.Assistant.Application/0.2.5": {
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
-          "Rovecode.Assistant.Facade": "0.2.4"
+          "Rovecode.Assistant.Facade": "0.2.5"
         },
         "runtime": {
           "lib/netcoreapp3.1/Application.dll": {
-            "assemblyVersion": "0.2.4.0",
-            "fileVersion": "0.2.4.0"
+            "assemblyVersion": "0.2.5.0",
+            "fileVersion": "0.2.5.0"
           }
         },
         "compile": {
           "lib/netcoreapp3.1/Application.dll": {}
         }
       },
-      "Rovecode.Assistant.Commands/0.2.3": {
+      "Rovecode.Assistant.Commands/0.2.5": {
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
-          "Rovecode.Assistant.Application": "0.2.4"
+          "Rovecode.Assistant.Application": "0.2.5"
         },
         "runtime": {
           "lib/netcoreapp3.1/Commands.dll": {
-            "assemblyVersion": "0.2.3.0",
-            "fileVersion": "0.2.3.0"
+            "assemblyVersion": "0.2.5.0",
+            "fileVersion": "0.2.5.0"
           }
         },
         "compile": {
           "lib/netcoreapp3.1/Commands.dll": {}
         }
       },
-      "Rovecode.Assistant.Configuration/0.2.4": {
+      "Rovecode.Assistant.Configuration/0.2.5": {
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
-          "Rovecode.Assistant.Application": "0.2.4"
+          "Rovecode.Assistant.Application": "0.2.5"
         },
         "runtime": {
           "lib/netcoreapp3.1/Configuration.dll": {
-            "assemblyVersion": "0.2.4.0",
-            "fileVersion": "0.2.4.0"
+            "assemblyVersion": "0.2.5.0",
+            "fileVersion": "0.2.5.0"
           }
         },
         "compile": {
           "lib/netcoreapp3.1/Configuration.dll": {}
         }
       },
-      "Rovecode.Assistant.Facade/0.2.4": {
+      "Rovecode.Assistant.Facade/0.2.5": {
         "runtime": {
           "lib/netcoreapp3.1/Facade.dll": {
-            "assemblyVersion": "0.2.4.0",
-            "fileVersion": "0.2.4.0"
+            "assemblyVersion": "0.2.5.0",
+            "fileVersion": "0.2.5.0"
           }
         },
         "compile": {
           "lib/netcoreapp3.1/Facade.dll": {}
         }
       },
-      "Rovecode.Assistant.Messages/0.2.4": {
+      "Rovecode.Assistant.Messages/0.2.5": {
         "dependencies": {
           "Microsoft.Azure.CognitiveServices.Search.CustomSearch": "2.0.0",
           "Newtonsoft.Json": "12.0.3",
-          "Rovecode.Assistant.Application": "0.2.4"
+          "Rovecode.Assistant.Application": "0.2.5"
         },
         "runtime": {
           "lib/netcoreapp3.1/Messages.dll": {
-            "assemblyVersion": "0.2.4.0",
-            "fileVersion": "0.2.4.0"
+            "assemblyVersion": "0.2.5.0",
+            "fileVersion": "0.2.5.0"
           }
         },
         "compile": {
@@ -2873,40 +2873,40 @@
       "path": "newtonsoft.json/12.0.3",
       "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
     },
-    "Rovecode.Assistant.Application/0.2.4": {
+    "Rovecode.Assistant.Application/0.2.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-fxiBAQ78fUXhgQaN9j6qn15Oy6H4RqZZdvHb0x+uSn+naeOucILMDEIH5zlGqJNoJOZ1PetiCf0BpgamtkgHVg==",
-      "path": "rovecode.assistant.application/0.2.4",
-      "hashPath": "rovecode.assistant.application.0.2.4.nupkg.sha512"
+      "sha512": "sha512-Jmdg6E2KnfZeRe/7SAC/KD8hvrcg3kt4ltvviH+elWiGL7oY3OIP1E/aN24MBz2pEq/O4rhsJ9/r+bnbytc7cw==",
+      "path": "rovecode.assistant.application/0.2.5",
+      "hashPath": "rovecode.assistant.application.0.2.5.nupkg.sha512"
     },
-    "Rovecode.Assistant.Commands/0.2.3": {
+    "Rovecode.Assistant.Commands/0.2.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+KmNbrc4wRrEqUHuJKNLaYc0l8Wsbo6nhY9vN0SVEXaxxApRdUmkGN0r6jtBcaQmzi952PThleF6lEuZPvBagw==",
-      "path": "rovecode.assistant.commands/0.2.3",
-      "hashPath": "rovecode.assistant.commands.0.2.3.nupkg.sha512"
+      "sha512": "sha512-XhAxj15Sjc7yH0eH6nVJWKOIYP+iGepsG3pUMPs+PYrLzSwRCw+IPOoTSyc5xV34xmUkWsqEiVdUMBXqbHsNvw==",
+      "path": "rovecode.assistant.commands/0.2.5",
+      "hashPath": "rovecode.assistant.commands.0.2.5.nupkg.sha512"
     },
-    "Rovecode.Assistant.Configuration/0.2.4": {
+    "Rovecode.Assistant.Configuration/0.2.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-U7MYvb0JT4ZRmH1NpMSrVaFD+zsRkheZsOSqiR4K4LBnTPeTNCsaiwOX4v3fkyywkdDWNTo45oQEYMNquGn0Lw==",
-      "path": "rovecode.assistant.configuration/0.2.4",
-      "hashPath": "rovecode.assistant.configuration.0.2.4.nupkg.sha512"
+      "sha512": "sha512-LPRbZeJw1G19RgRlSbIlix2dYe3sC79lK7G0vHfwUF2ZJHcgOKCp+vqfJXYZhPHk5bh8ttDLjYDTIlWvJvPIqg==",
+      "path": "rovecode.assistant.configuration/0.2.5",
+      "hashPath": "rovecode.assistant.configuration.0.2.5.nupkg.sha512"
     },
-    "Rovecode.Assistant.Facade/0.2.4": {
+    "Rovecode.Assistant.Facade/0.2.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-6e8UFTJ99naHf5dA6YCy7MSNdE/NxFgYXajw9YACnlnfdWazyxF3xx9z5JTpo1yOPVP+zitmT5AHjzWf3Xp0Uw==",
-      "path": "rovecode.assistant.facade/0.2.4",
-      "hashPath": "rovecode.assistant.facade.0.2.4.nupkg.sha512"
+      "sha512": "sha512-pmWIThPc6o2tR6brWuut4pTGmo5s2+b4Zbwp/zMb/weMLkz4vxIIwbM0wm8g6Ekhzcp5YHihVUBqzUsP/0c2fA==",
+      "path": "rovecode.assistant.facade/0.2.5",
+      "hashPath": "rovecode.assistant.facade.0.2.5.nupkg.sha512"
     },
-    "Rovecode.Assistant.Messages/0.2.4": {
+    "Rovecode.Assistant.Messages/0.2.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-e+ZYrRTSjpJPhSGr6vSrTSkLhXfbc2kwpVCSsKLeAxK4roi0SGlF8mhdRB1C1TtNjZfgCzuPVYfM42ZW28urIQ==",
-      "path": "rovecode.assistant.messages/0.2.4",
-      "hashPath": "rovecode.assistant.messages.0.2.4.nupkg.sha512"
+      "sha512": "sha512-akCRggqedx9j78a9G5nHMTVIR0Ms2BjRmeD7xuccr3s5ZrZea2u/EaWFCXwJ3f1fpkekPquNdGM5znD+X+OWAg==",
+      "path": "rovecode.assistant.messages/0.2.5",
+      "hashPath": "rovecode.assistant.messages.0.2.5.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",

@@ -21,9 +21,15 @@ namespace Api.Configuration
         private void InitOptions()
         {
             Options.Language = "ru";
+
+            Options.BingLink = new Uri("<null>");
+            Options.BingToken = "<null>";
+
             Options.ExecuteAssistantKeys = new []
             {
                 new [] { "хватов", },
+                new [] { "khvatov", },
+                new [] { "khvatov", },
                 new [] { "феликс", },
             };
         }
@@ -34,8 +40,8 @@ namespace Api.Configuration
 
             Manager.Commands.Add(new HelloCommand());
             Manager.Commands.Add(new SearchCommand());
-            Manager.Commands.Add(new CatsCommand());
-            Manager.Commands.Add(new AlabaiCommand());
+            Manager.Commands.Add(new PictureCommand());
+            Manager.Commands.Add(new LabCommand());
         }
     }
 }

@@ -5,8 +5,8 @@ using Assistant.Commands.Models;
 using Assistant.Facade.Commands;
 using Assistant.Facade.Messages;
 using Assistant.Messages;
-using Assistant.Messages.Builders.Bing;
-using Assistant.Messages.Builders.Google;
+using Bing = Assistant.Messages.Builders.Bing;
+using DuckDuckGo = Assistant.Messages.Builders.DuckDuckGo;
 
 namespace Api.Commands
 {
@@ -20,6 +20,10 @@ namespace Api.Commands
                 new [] { "search" },
                 new [] { "bing" },
                 new [] { "google" },
+                new [] { "найди" },
+                new [] { "загугли" },
+                new [] { "гугл" },
+                new [] { "бинг" },
             }
         };
 
@@ -29,17 +33,21 @@ namespace Api.Commands
             key.Remove("search");
             key.Remove("bing");
             key.Remove("google");
+            key.Remove("найди");
+            key.Remove("загугли");
+            key.Remove("гугл");
+            key.Remove("бинг");
 
             return new AssistantMessage
             {
                 Text = "I find this...",
                 Attachment = context.Message.CommandKey.Contains("bing")
-                    ? new BingLinkAttachmentBuilder(context)
+                    ? new Bing.SearchLinkAttachmentBuilder(context)
                         .SetText("Find result in bing")
                         .SetSearchKey(key)
                         .GetResult()
-                    : new GoogleLinkAttachmentBuilder(context)
-                        .SetText("Find result in google")
+                    : new DuckDuckGo.SearchLinkAttachmentBuilder(context)
+                        .SetText("Найденные результаты на DuckDuckGo")
                         .SetSearchKey(key)
                         .GetResult()
             };

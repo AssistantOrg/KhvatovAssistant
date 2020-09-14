@@ -38,9 +38,9 @@ namespace Api.Controllers
                 .SetText(model.Text)
                 .GetResult();
 
-            _logger.LogInformation(JsonConvert.SerializeObject(context));
+            //_logger.LogInformation(JsonConvert.SerializeObject(context, Formatting.Indented));
 
-            if (model.IsNullWithoutAssistantKey && context.Message.ExcuteAssistantKey.Count() == 0) return null;
+            if (model.IsNullWithoutAssistantKey && context.Message.ExcuteAssistantKey == null || context.Message.ExcuteAssistantKey.Count() == 0) return null;
 
             IAssistantMessage result = await _settings.Manager
                 .TryFindAndExecuteCommandsAsync(context);
